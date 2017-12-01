@@ -27,6 +27,7 @@ import com.hackfsu.mobile.android.app.HackFSU;
 import com.hackfsu.mobile.android.app.fragment.MapsFragment;
 import com.hackfsu.mobile.android.app.R;
 import com.hackfsu.mobile.android.app.fragment.SponsorsFragment;
+import com.hackfsu.mobile.android.app.fragment.ProfileFragment;
 
 public class MainActivity extends AppCompatActivity
         implements BaseFragment.OnFragmentInteractionListener {
@@ -133,6 +134,8 @@ public class MainActivity extends AppCompatActivity
                 fg = MapsFragment.newInstance(); break;
             case R.id.nav_sponsors:
                 fg = SponsorsFragment.newInstance(); break;
+            case R.id.nav_profile:
+                fg = ProfileFragment.newInstance(); break;
         }
 
         // Actual cannibal shia transaction

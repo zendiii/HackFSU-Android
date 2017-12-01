@@ -19,8 +19,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:itemBackground="@color/primary"
-        app:itemIconTint="@color/accent"
-        app:itemTextColor="@color/accent"
+        app:itemIconTint="@color/primaryTextLight"
+        app:itemTextColor="@color/primaryTextLight"
         app:menu="@menu/activity_main_drawer" />
 
     </RelativeLayout>
